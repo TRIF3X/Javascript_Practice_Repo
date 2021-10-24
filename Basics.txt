@@ -1,0 +1,35 @@
+{ Javascript }
+
+- 8 different data types:
+    Undefined
+    Null
+    Boolean - yes OR no
+    String - "hello"    
+    Symbol
+    Bigint
+    Number - 432
+    Object - {}
+
+Strings are immutable, once declared they can NOT be altered only changed
+
+
+*** Variable names can be made up of numbers, letters, and $ or _, but may not contain spaces or start with a number
+var ourName = 'conner';
+* Scopped to the immediate function body(function scope) DO NOT USE
+const ourName = 'conner'
+* variable can NOT be changed
+let ourName = 'conner'
+* variable can be changed, scopped to the immediate enclosing block(block scope)
+
+let a = 4.2 
+* This is referred to as a floating point number aka float
+
+*** ESCAPE SEQUENCES IN STRINGS ***
+\' single quote
+\" double quote
+\\ backslash
+\n new line
+\r carriage return  
+\t tab
+\b word boundary
+\f form feed
