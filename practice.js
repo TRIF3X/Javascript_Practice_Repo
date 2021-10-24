@@ -32,9 +32,14 @@ console.log(myConcatenatedString)
 // Return the letter at any position starting with 0
 console.log(myConcatenatedString[3]) 
 
-//return the last letter in a string
-lastLetter = myConcatenatedString[myConcatenatedString.length - 1]
+// Return the last letter in a string
+let lastLetter = myConcatenatedString[myConcatenatedString.length - 1]
 console.log(lastLetter)
+
+// Return the nTh-to-last letter in a string
+lastLetter = myConcatenatedString[myConcatenatedString.length - 5]
+console.log(lastLetter)
+
 
 // Practice function: return a position in an array using a loop if even or odd
 myFunction = () => {
