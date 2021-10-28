@@ -2,3 +2,4 @@
 A place to practice javascript
 
 Javascript file should have quokka.js running in VScode 
+CTRL + K, Q - Starts Quokka on current file

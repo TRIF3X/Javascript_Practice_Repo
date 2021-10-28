@@ -40,6 +40,17 @@ console.log(lastLetter)
 lastLetter = myConcatenatedString[myConcatenatedString.length - 5]
 console.log(lastLetter)
 
+// Remove the first element of an array
+let myArr = [1,'two', 3, 'four']
+const removedFirstOfArray = myArr.shift()
+console.log(removedFirstOfArray)
+console.log(myArr)
+// Add an element to front of an array
+myArr.unshift(removedFirstOfArray)
+console.log(myArr)
+
+
+
 
 // Practice function: return a position in an array using a loop if even or odd
 myFunction = () => {
