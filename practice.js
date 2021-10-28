@@ -98,5 +98,16 @@ const myFibonacci = (length) => {
 
 console.log(myFibonacci(7))
 
+// Queue functions
 
-
+const queueArr = [5,6,7,8,9]
+// Push new value to end of queue
+const addToQueue = (arr, item) => arr.push(item)
+// push returns the new length of the array 
+console.log(addToQueue(queueArr, 10))
+// new array after pushing 10 to end of queue
+console.log(queueArr)
+// Remove value from start of array
+const removeFromQueue = (arr) => arr.shift(arr)
+removeFromQueue(queueArr)
+console.log(queueArr)
