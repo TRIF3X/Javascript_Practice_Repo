@@ -24,6 +24,11 @@ let ourName = 'conner'
 let a = 4.2 
 * This is referred to as a floating point number aka float
 
+Number.toString(2) -> returns the binary number
+Ex. 
+let num = 5
+num.toString(2) -> returns 101
+
 *** ESCAPE SEQUENCES IN STRINGS ***
 \' single quote
 \" double quote

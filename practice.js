@@ -111,3 +111,9 @@ console.log(queueArr)
 const removeFromQueue = (arr) => arr.shift(arr)
 removeFromQueue(queueArr)
 console.log(queueArr)
+
+/* === strictly compares the two values, using Number() we can use type 
+coercion to change the string to a number */
+console.log(3 === Number('3'))
+// we can also use type coercion to turn a number into a string
+console.log('3' === String(3))
