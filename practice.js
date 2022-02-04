@@ -117,3 +117,12 @@ coercion to change the string to a number */
 console.log(3 === Number('3'))
 // we can also use type coercion to turn a number into a string
 console.log('3' === String(3))
+
+
+// "for of" loops
+// itirates through and will list all letters one by one
+let greeting = 'hello im conner'
+
+for (char of greeting) {
+  console.log(char)
+}
